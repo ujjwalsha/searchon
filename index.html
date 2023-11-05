@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>Just Search</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #3d00ad;
+            background-image: linear-gradient(100deg, #5a06f7 0%, #7d35f0 180%);
+            font-family: 'poppins', sans-serif;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            background-size: cover;
+        }
+        
+        .responsive {
+            height: 400px;
+            width: 700px;
+        }
+        
+        header {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+        
+        h1 {
+            text-shadow: 5px 10px 15px rgb(84, 7, 228);
+        }
+        
+        header,
+        form {
+            min-height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        form input {
+            border: none;
+            background: #fff;
+            padding: 1rem;
+            padding-left: 2rem;
+            font-size: 2vw;
+            color: #3500af;
+            font-weight: bold;
+        }
+        
+        .search {
+            background-color: #3500af;
+            color: #fff;
+            font-size: 2vw;
+            padding-left: 1rem;
+            border-radius: 0;
+            cursor: pointer;
+        }
+        /*Footer*/
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin: 14rem auto;
+        }
+        
+        footer p {
+            color: rgb(192, 192, 192);
+        }
+        
+        .owner {
+            color: #fff;
+            margin: 1rem;
+            /*text-shadow: 5px 10px 15px rgb(84, 7, 228);*/
+        }
+        
+        footer h2 {
+            color: #fff;
+        }
+        
+        main {
+            color: #fff;
+        }
+        
+        @media(max-width: 768px) {
+            header {
+                font-size: 1.2rem;
+            }
+            form input {
+                font-size: 1rem;
+            }
+            form {
+                align-items: center;
+            }
+            .search {
+                font-size: 1rem;
+                border: none;
+                font-weight: bold;
+            }
+            body {
+                /*background-image: url(/backgroundimage1.svg);*/
+                background-origin: content-box;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--img src="https://ibb.co/1mSqqsD" alt="">-->
+    <header>
+        <h1>Just Search</h1>
+    </header>
+
+    <form class="search-input" action="https://www.google.com/search" method="get">
+        <input type="text" autofocus name="q" placeholder="Search....." type="text">
+        <input class="search" type="Submit">
+    </form>
+
+
+    <footer>
+        <h2>Searchify</h2>
+        <main>
+            welcome to my home page!
+            <p>Copyright &#169; Privacy policy</p>
+            <p class="owner">Created by Ujjwal kumar</p>
+        </main>
+    </footer>
+
+</body>
+
+</html>
